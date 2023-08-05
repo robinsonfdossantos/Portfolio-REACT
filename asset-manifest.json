@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-REACT/static/css/main.b880b816.css",
+    "main.js": "/Portfolio-REACT/static/js/main.32cb360f.js",
+    "static/media/fishing.gif": "/Portfolio-REACT/static/media/fishing.1cc41040a1040b6529df.gif",
+    "static/media/daily-calendar.gif": "/Portfolio-REACT/static/media/daily-calendar.88714a2c1affa76cb632.gif",
+    "static/media/weather.gif": "/Portfolio-REACT/static/media/weather.8187df3e2eaa3af24377.gif",
+    "static/media/note-taker.gif": "/Portfolio-REACT/static/media/note-taker.82bcef1ac7dbb451a6c6.gif",
+    "static/media/business.gif": "/Portfolio-REACT/static/media/business.48305a8c8893b640cd27.gif",
+    "static/media/e-commerce.png": "/Portfolio-REACT/static/media/e-commerce.5bac8cf728be74f1f1ca.png",
+    "static/media/resume.pdf": "/Portfolio-REACT/static/media/resume.a366a222b72c3b9b7822.pdf",
+    "static/media/no-sql.png": "/Portfolio-REACT/static/media/no-sql.503b0cf9078b1c46e356.png",
+    "static/media/profile-picture.jpg": "/Portfolio-REACT/static/media/profile-picture.08d40c4cf1d41ba76d71.jpg",
+    "static/media/virtual-adventures.png": "/Portfolio-REACT/static/media/virtual-adventures.bc0057fd74bbedffd927.png",
+    "static/media/text-editor.png": "/Portfolio-REACT/static/media/text-editor.c823716a4b659ee97523.png",
+    "static/media/quiz-javascript.png": "/Portfolio-REACT/static/media/quiz-javascript.5641ad2f7a1656e6e343.png",
+    "index.html": "/Portfolio-REACT/index.html",
+    "main.b880b816.css.map": "/Portfolio-REACT/static/css/main.b880b816.css.map",
+    "main.32cb360f.js.map": "/Portfolio-REACT/static/js/main.32cb360f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b880b816.css",
+    "static/js/main.32cb360f.js"
+  ]
+}
