@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    color: bisque;
+    align-items: flex-end;
+    border-bottom: solid;
+    margin-right: 2px;
+}
+
+.username {
+    display: flex;
+    font-size: 50px;
+    color: bisque;
+    justify-content: flex-start; 
+}
+
+.navbar-nav {
+    display: flex;
+    font-size: 25px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+}
+
+@media screen and (max-width: 1003px) {
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .ms-auto{
+        display: flex;
+        align-items: center;
+    }
+  }
+
+
+  @media screen and (max-width: 990px) {
+    .username {
+        font-size: 40px;
+    }
+
+    .ms-auto{
+        font-size: 20px;
+    }
+
+    .heading{
+        font-size: 30px;
+    }
+  }
+

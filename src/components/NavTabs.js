@@ -1,24 +1,12 @@
 import React from 'react';
+import "./NavTabs.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-success">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container">
-        <a className="navbar-brand text-white" href="/">
-          Robinson
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <h1 className="username"> Robinson Dos Santos </h1>
+        <div className="navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a

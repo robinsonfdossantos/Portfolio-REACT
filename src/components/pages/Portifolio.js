@@ -1,47 +1,98 @@
 import React from 'react';
+import "./Portfolio.css";
+
+import VirtualAdventures from './images/virtual-adventures.png';
+import Fishing from './images/fishing.gif';
+import TextEditor from './images/text-editor.png';
+import NoSql from './images/no-sql.png';
+import Ecommerce from './images/e-commerce.png';
+import Business from './images/business.gif';
+import NoteTaker from './images/note-taker.gif';
+import WeatherDash from './images/weather.gif';
+import DailyCalendar from './images/daily-calendar.gif';
+import Quiz from './images/quiz-javascript.png';
 
 export default function Portifolio() {
   return (
-    <div id="work" className="work">
-      <h3>Work</h3>
+
+    <div className="portfolio">
+      <h2 className="heading">PORTFOLIO</h2>
+
       <div className="content">
-        <div className="surf-report">
-          <a href="https://polar-ridge-73411-3a05ece12937.herokuapp.com/" alt="Project 1" className="surf-report-background">
-            <img src="image1.jpg" alt="Virtual Adventures" />
+
+        <div className="fishing-fanatics">
+          <h4>Fishing Fanatics - Project 2</h4>
+          <a href="https://polar-ridge-73411-3a05ece12937.herokuapp.com/" alt="Project 2">
+            <img src={Fishing} alt="" />
           </a>
-          <h4>Virtual Adventures</h4>
-          <p>Project 1</p>
         </div>
-        <div className="led-wall">
-          <a href="https://robinsonfdossantos.github.io/Virtual_Adventures/" alt="Project 1" className="led-calc-puzzle-run-background">
-            <img src="image2.jpg" alt="Led Wall" />
+
+        <div className="virtual-adventures">
+          <h4>Virtual Adventures - Project 1</h4>
+          <a href="https://robinsonfdossantos.github.io/Virtual_Adventures/" alt="Project 1">
+            <img src={VirtualAdventures} alt="" />
           </a>
-          <h4>Led Wall</h4>
-          <p>Node/ IoT</p>
         </div>
-        <div className="calculator">
-          <a href="https://robinsonfdossantos.github.io/Bootcamp-Challenge-02/" alt="My first challenge" className="led-calc-puzzle-run-background">
-            <img src="image3.jpg" alt="Calculator" />
+
+        <div className="text-editor">
+          <h4>Text Editor - PWA</h4>
+          <a href="https://github.com/robinsonfdossantos/Text-Editor-PWA" alt="Text Editor PWA">
+            <img src={TextEditor} alt="" />
           </a>
-          <h4>Calculator</h4>
-          <p>React/ JavaScript/ CSS</p>
         </div>
-        <div className="pastel-puzzles">
-          <a href="https://robinsonfdossantos.github.io/Bootcamp-Challenge-02/" alt="My first challenge" className="led-calc-puzzle-run-background">
-            <img src="image4.jpg" alt="Pastel Puzzles" />
+
+        <div className="no-sql">
+          <h4>Social Media - NoSql</h4>
+          <a href="https://github.com/robinsonfdossantos/Social-Network-NoSql" alt="Simulate a Social Media with NoSql">
+            <img src={NoSql} alt="" />
           </a>
-          <h4>Pastel Puzzles</h4>
-          <p>Mern Stack</p>
         </div>
-        <div className="run-boddy">
-          <a href="https://robinsonfdossantos.github.io/Bootcamp-Challenge-02/" alt="My first challenge" className="led-calc-puzzle-run-background">
-            <img src="image5.jpg" alt="Run Boddy" />
+
+        <div className="e-commerce">
+          <h4>E-commerce - MySql</h4>
+          <a href="https://github.com/robinsonfdossantos/E-Commerce" alt="Simulate an E-commerce with MySql">
+            <img src={Ecommerce} alt="" />
           </a>
-          <h4>Run Boddy</h4>
-          <p>HTML / CSS</p>
         </div>
+
+        <div className="business-management">
+          <h4>Business Management - MySql</h4>
+          <a href="https://github.com/robinsonfdossantos/Business-Management" alt="Simulate a Business Management with MySql">
+            <img src={Business} alt="" />
+          </a>
+        </div>
+
+        <div className="note-taker">
+          <h4>Note Taker</h4>
+          <a href="https://blooming-citadel-39669.herokuapp.com/notes" alt="Deployed Note Taker Application">
+            <img src={NoteTaker} alt="" />
+          </a>
+        </div>
+
+        <div className="weather-dashboard">
+          <h4>Weather Dashboard - API</h4>
+          <a href="https://robinsonfdossantos.github.io/Weather_Dashboard/" alt="Deployed App using API to create a weather dashboard">
+            <img src={WeatherDash} alt="" />
+          </a>
+        </div>
+
+        <div className="daily-calendar">
+          <h4>Daily Calendar -  Day.js</h4>
+          <a href="https://robinsonfdossantos.github.io/Daily-Calendar/" alt="Deployed App using API to create a weather dashboard">
+            <img src={DailyCalendar} alt="" />
+          </a>
+        </div>
+
+        <div className="quiz-javascript">
+          <h4>Quiz - Web API Javascript</h4>
+          <a href="https://robinsonfdossantos.github.io/JavaScript_Quiz/" alt="Web API Quiz in Javascript">
+            <img src={Quiz} alt="" />
+          </a>
+        </div>
+
       </div>
     </div>
+
   );
 }
 

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Aboutme from './pages/Aboutme';
+import Aboutme from './pages/AboutMe';
 import Portifolio from './pages/Portifolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './Footer';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Aboutme');
 
   const renderPage = () => {
     if (currentPage === 'Aboutme') {
