@@ -1,36 +1,52 @@
-# 📐 Add Comments to Implementation of Conditional Rendering
+# Portfolio-REACT  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Before We Begin
+  ## Description
+  This project was developed as a boot camp challenge using REACT technology, but besides the good development practice it will also can be used as an application to present my portfolio with some of the projects that were created during the boot camp.
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+  
+  ## Installation
+  Navigate to https://github.com/robinsonfdossantos/Portfolio-REACT.
 
-Before you begin this activity, complete the following steps:
+  Open a local built-in Terminal (powershell, bash) on your local machine.
 
-1. Delete the `/src` folder in [00-practice-app](../00-practice-app/).
+  Navigate to a desired folder to place your project in, using 'cd "folder"'.
 
-2. Copy the `/src` folder from [Unsolved](./Unsolved/) and paste it into [00-practice-app](../00-practice-app/).
+  Use `git clone` to copy the repository to your local computer by typing "git clone git@github.com:robinsonfdossantos/Portfolio-REACT.git".
+  
+  ## Usage
 
-3. This project uses Bootstrap, so don't forget to import it inside `index.js`:
+  To run the application make sure that you have created all the REACT required configurations.
 
-     `import 'bootstrap/dist/css/bootstrap.min.css'`
-   
-## Activity
+  As bootstrap technology has been also used in the development is necessary to import the required libraries to ensure that no errors happen by running `import bootstrap/dist/css/bootstrap.min.css` in the integrate terminal.
+  
+  To start the application ensure that all the packages have been installed by running `npm i` or `npm install`, followed by `npm start`.
 
-Work with a partner to add comments that describe the functionality of the code found in the [PortfolioContainer](../00-practice-app/src/components/PortfolioContainer.js) and [NavTabs](../00-practice-app/src/components/NavTabs.js) components.
+  How it is a personal private page, ensure that none of the content will be published by someone wihthout the owner's consent.
 
-## 📝 Notes
+  In the illustration below shows is part of the code that you will face in this application, in this example it presents the some bootstrap framework and how navigation tabs may be configured.
 
-Refer to the documentation: 
+  <img src="./src/components/pages/images/main-page.png" alt="Code with the fuctions of the navigation tabs" width="80%" height="80%" />
 
-* [React Docs on conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
+  ## Deployment
 
----
+  The application has been deployed using the Github `gh-pages`, which is a tool which works to deploy REACT applications.
 
-## 🏆 Bonus
+  The following link represents the deployed application, where you can navigate through my application and know a bit more about myself, besides visiting my portfolio.
 
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+  `https://robinsonfdossantos.github.io/Portfolio-REACT/`
 
-* Can you think of some scenarios where conditional rendering would be beneficial?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## License
+  This application is covered under the MIT license.
+  
+  ## Contributing
+  
+  All users are very welcome to leave their comments and suggestions for improvement by sending me a direct message or creating pull requests on Github.
+  
+  ## Questions
+  For any questions or inquiries, please reach out to me via [GitHub](https://github.com/robinsonfdossantos) or email me at robinsonfdossantos@gmail.com.
