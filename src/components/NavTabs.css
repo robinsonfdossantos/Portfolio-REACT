@@ -54,3 +54,18 @@
     }
   }
 
+  @media screen and (max-width: 800px) {
+    .username {
+        font-size: 32px;
+    }
+
+    .ms-auto{
+        font-size: 15px;
+    }
+
+    .heading{
+        font-size: 23px;
+    }
+  }
+
+
