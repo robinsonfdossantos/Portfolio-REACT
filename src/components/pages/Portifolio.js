@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Portfolio.css";
 
+import FancyCandles from './images/fancy-candles.png';
 import VirtualAdventures from './images/virtual-adventures.png';
 import Fishing from './images/fishing.gif';
 import TextEditor from './images/text-editor.png';
@@ -19,6 +20,13 @@ export default function Portifolio() {
       <h2 className="heading">PORTFOLIO</h2>
 
       <div className="content">
+
+      <div className="fishing-fanatics">
+          <h4>Fancy Candles - Project 3</h4>
+          <a href="https://tranquil-springs-18915-4201a64f92ba.herokuapp.com/" alt="Project 3">
+            <img src={FancyCandles} alt="" />
+          </a>
+        </div>
 
         <div className="fishing-fanatics">
           <h4>Fishing Fanatics - Project 2</h4>

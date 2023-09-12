@@ -10,6 +10,8 @@ export default function Contact() {
             <div className="col-lg-8">
               <div className="text-center">
               <h2 className="heading">CONTACT ME!</h2>
+              <p>Mobile: 0401 803 607</p>
+              <p>Email: robinsonfdossantos@gmail.com</p>
                 <hr className="divider" />
               </div>
 

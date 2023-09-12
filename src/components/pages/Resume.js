@@ -19,22 +19,42 @@ export default function Resume() {
           <span className="resume-icon">&#x1f4CE;</span> Download resume
         </a>
       
+    <div className="skill-technologies">
 
-      <h3 className="skills-heading">Font-End Skills</h3>
-      <ul className="front-end-skills-list">
-        <li> HTML </li>
-        <li> CSS </li>
-        <li> JavaScript </li>
-        <li> REACT </li>
-      </ul>
-
-      <h3 className="skills-heading">Back-End Skills</h3>
-      <ul className="back-end-skills-list">
-        <li> NodeJS </li>
+      <div className='skills'>
+      <h3 className="skills-heading">Skills</h3>
+      <ul className="skills-list">
+        <li> Web Development </li>
+        <li> Web Design </li>
+        <li> Programming</li>
+        <li> SQL </li>
+        <li> MERN </li>
+        <li> React </li>
         <li> MongoDB </li>
-        <li> MySQL</li>
-        <li> NoSQL</li>
+        <li> Mongoose </li>
+        <li> Quality Assurance </li>
       </ul>
+      </div>
+
+      <div className='technologies'>
+      <h3 className="skills-heading">Technologies</h3>
+      <ul className="technologies-list">
+        <li> HTML5 </li>
+        <li> CSS3 </li>
+        <li> JavaScript ES6+</li>
+        <li> Heroku</li>
+        <li> Bootstrap</li>
+        <li> GitHub</li>
+        <li> GraphQl</li>
+        <li> MVC</li>
+        <li> OOP</li>
+        <li> Express.js</li>
+        <li> Node.js</li>
+        <li> React.js</li>
+      </ul>
+      </div>
+      </div>
+
       </div>
     </div>
   );
