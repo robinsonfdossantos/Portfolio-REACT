@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio-REACT/static/css/main.1f5988ce.css",
-    "main.js": "/Portfolio-REACT/static/js/main.32cb360f.js",
+    "main.css": "/Portfolio-REACT/static/css/main.04a98da3.css",
+    "main.js": "/Portfolio-REACT/static/js/main.b166ce09.js",
     "static/media/fishing.gif": "/Portfolio-REACT/static/media/fishing.1cc41040a1040b6529df.gif",
     "static/media/daily-calendar.gif": "/Portfolio-REACT/static/media/daily-calendar.88714a2c1affa76cb632.gif",
     "static/media/weather.gif": "/Portfolio-REACT/static/media/weather.8187df3e2eaa3af24377.gif",
+    "static/media/fancy-candles.png": "/Portfolio-REACT/static/media/fancy-candles.e647371bc3f2b0dec0c0.png",
     "static/media/note-taker.gif": "/Portfolio-REACT/static/media/note-taker.82bcef1ac7dbb451a6c6.gif",
     "static/media/business.gif": "/Portfolio-REACT/static/media/business.48305a8c8893b640cd27.gif",
     "static/media/e-commerce.png": "/Portfolio-REACT/static/media/e-commerce.5bac8cf728be74f1f1ca.png",
@@ -15,11 +16,11 @@
     "static/media/text-editor.png": "/Portfolio-REACT/static/media/text-editor.c823716a4b659ee97523.png",
     "static/media/quiz-javascript.png": "/Portfolio-REACT/static/media/quiz-javascript.5641ad2f7a1656e6e343.png",
     "index.html": "/Portfolio-REACT/index.html",
-    "main.1f5988ce.css.map": "/Portfolio-REACT/static/css/main.1f5988ce.css.map",
-    "main.32cb360f.js.map": "/Portfolio-REACT/static/js/main.32cb360f.js.map"
+    "main.04a98da3.css.map": "/Portfolio-REACT/static/css/main.04a98da3.css.map",
+    "main.b166ce09.js.map": "/Portfolio-REACT/static/js/main.b166ce09.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f5988ce.css",
-    "static/js/main.32cb360f.js"
+    "static/css/main.04a98da3.css",
+    "static/js/main.b166ce09.js"
   ]
 }
